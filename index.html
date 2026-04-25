@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DriveEasy — Premium Car Rentals & Leasing</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">DRIVE<span>EASY</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="cars.html">Our Fleet</a></li>
+      <li><a href="contact.html">Inquire</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Get a Quote</a>
+    <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="cars.html">Our Fleet</a>
+    <a href="contact.html">Inquire</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Premium Car Rentals & Leasing</p>
+      <h1>Drive Your <br><span class="accent">Dream Car</span><br>Today.</h1>
+      <p class="hero-sub">Flexible rentals. Transparent pricing.<br>No hidden fees. Cancel anytime.</p>
+      <div class="hero-btns">
+        <a href="cars.html" class="btn-primary">Browse Fleet</a>
+        <a href="contact.html" class="btn-outline">Make Inquiry</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">200+</span><span class="stat-label">Vehicles</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">5★</span><span class="stat-label">Rated</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">24/7</span><span class="stat-label">Support</span></div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us">
+    <div class="container">
+      <p class="section-tag">Why Choose Us</p>
+      <h2 class="section-title">The Smarter Way<br>to Rent a Car</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">&#9679;</div>
+          <h3>Flexible Plans</h3>
+          <p>Daily, weekly, monthly and long-term lease options tailored to your lifestyle.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#9679;</div>
+          <h3>No Hidden Fees</h3>
+          <p>The price you see is the price you pay. Full transparency, always.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#9679;</div>
+          <h3>Premium Fleet</h3>
+          <p>From economy to luxury SUVs — fully serviced, cleaned, and insured.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#9679;</div>
+          <h3>Fast Booking</h3>
+          <p>Submit an inquiry and receive a confirmed quote within 2 hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED CARS -->
+  <section class="featured">
+    <div class="container">
+      <p class="section-tag">Top Picks</p>
+      <h2 class="section-title">Featured Vehicles</h2>
+      <div class="cars-grid">
+        <div class="car-card">
+          <div class="car-img economy"></div>
+          <div class="car-info">
+            <span class="car-badge">Economy</span>
+            <h3>Toyota Corolla</h3>
+            <p>Fuel efficient, reliable, perfect for city driving.</p>
+            <div class="car-price">From <strong>$35</strong>/day</div>
+            <a href="contact.html" class="btn-small">Inquire</a>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-img suv"></div>
+          <div class="car-info">
+            <span class="car-badge premium">Premium SUV</span>
+            <h3>BMW X5</h3>
+            <p>Spacious, powerful, and loaded with features.</p>
+            <div class="car-price">From <strong>$120</strong>/day</div>
+            <a href="contact.html" class="btn-small">Inquire</a>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-img luxury"></div>
+          <div class="car-info">
+            <span class="car-badge luxury-badge">Luxury</span>
+            <h3>Mercedes E-Class</h3>
+            <p>Refined elegance for business or special occasions.</p>
+            <div class="car-price">From <strong>$180</strong>/day</div>
+            <a href="contact.html" class="btn-small">Inquire</a>
+          </div>
+        </div>
+      </div>
+      <div class="centered">
+        <a href="cars.html" class="btn-primary">View Full Fleet</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Ready to Hit the Road?</h2>
+      <p>Send us an inquiry and we'll match you with the perfect vehicle.</p>
+      <a href="contact.html" class="btn-primary light">Make an Inquiry</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">DRIVE<span>EASY</span></a>
+        <p>Premium car rentals and leasing for every need and budget.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="cars.html">Our Fleet</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>info@driveeasy.com</p>
+        <p>+1 (800) 555-0199</p>
+        <p>Mon–Sat, 8am–8pm</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 DriveEasy Car Rentals. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inquire — DriveEasy Car Rentals</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">DRIVE<span>EASY</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cars.html">Our Fleet</a></li>
+      <li><a href="contact.html" class="active">Inquire</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Get a Quote</a>
+    <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="cars.html">Our Fleet</a>
+    <a href="contact.html">Inquire</a>
+  </div>
+
+  <section class="page-header">
+    <div class="container">
+      <p class="section-tag">Get in Touch</p>
+      <h1>Make an Inquiry</h1>
+      <p>Fill out the form below and we'll get back to you within 2 hours.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT LAYOUT -->
+  <section class="contact-section">
+    <div class="container contact-layout">
+
+      <!-- LEFT: Info -->
+      <div class="contact-info">
+        <h2>We're Here to Help</h2>
+        <p>Whether you're looking for a short-term rental, a long weekend trip, or a full lease arrangement — our team will guide you to the right option.</p>
+
+        <div class="info-block">
+          <div class="info-icon">&#9993;</div>
+          <div>
+            <h4>Email</h4>
+            <p>info@driveeasy.com</p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-icon">&#9742;</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+1 (800) 555-0199</p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-icon">&#128337;</div>
+          <div>
+            <h4>Hours</h4>
+            <p>Mon–Sat: 8am – 8pm<br>Sun: 10am – 4pm</p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-icon">&#128205;</div>
+          <div>
+            <h4>Location</h4>
+            <p>123 Motor Ave, Suite 10<br>Los Angeles, CA 90001</p>
+          </div>
+        </div>
+
+        <div class="response-badge">
+          <strong>&#9889; Fast Response</strong>
+          <span>Average reply time under 2 hours during business hours.</span>
+        </div>
+      </div>
+
+      <!-- RIGHT: Google Form embed -->
+      <div class="contact-form-wrapper">
+        <div class="form-header">
+          <h3>Send Your Inquiry</h3>
+          <p>All fields marked * are required.</p>
+        </div>
+
+        <!--
+          ============================================================
+          GOOGLE FORM EMBED INSTRUCTIONS:
+          1. Go to https://forms.google.com and create your form
+          2. Add fields: Name, Email, Phone, Car Type, Dates, Message
+          3. Click Send > Embed icon (<>)
+          4. Copy the iframe src URL
+          5. Replace the src below with YOUR form's URL
+          ============================================================
+        -->
+        <div class="form-embed-container">
+          <iframe
+            id="googleForm"
+            src="https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform?embedded=true"
+            width="100%"
+            height="900"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            title="DriveEasy Inquiry Form">
+            Loading form…
+          </iframe>
+        </div>
+
+        <p class="form-note">
+          &#128274; Your information is kept private and never shared with third parties.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">DRIVE<span>EASY</span></a>
+        <p>Premium car rentals and leasing for every need and budget.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="cars.html">Our Fleet</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>info@driveeasy.com</p>
+        <p>+1 (800) 555-0199</p>
+        <p>Mon–Sat, 8am–8pm</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 DriveEasy Car Rentals. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
